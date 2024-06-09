@@ -1,4 +1,3 @@
-
 # Portfolio
 
 
@@ -9,5 +8,5 @@ This is my portfolio website presenting my work in. It displays my projects, and
 
 ![alt text](image.png)
 
+https://github.com/somdutta2604/Portfolio/assets/139131355/da090e66-c1e8-4835-8680-16806fa71e9d
 
-<video controls src="09.06.2024_08.48.18_REC.mp4" title="Title"></video>
