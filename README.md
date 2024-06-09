@@ -1,6 +1,3 @@
-
-https://github.com/somdutta2604/Portfolio/assets/139131355/bbfa6bf4-76dd-4604-b627-4e5efa0dc310
-
 # Portfolio
 
 
