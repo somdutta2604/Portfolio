@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--header-->
+    <nav id="desktop-nav">
+      <div class="logo">Somdutta</div>
+      <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>  
+          <a href="#skills">Skills</a>  
+          <a href="#contact">Contact</a>  
+      </div>
+    </nav>
+        <div class="menu-links">
+          <a href="#home" onclick="toggleMenu()">Home</a>
+          <a href="#about" onclick="toggleMenu()">About</a>
+          <a href="#skills" onclick="toggleMenu()">Skills</a>
+          <a href="#projects" onclick="toggleMenu()">Projects</a>
+          <a href="#contact" onclick="toggleMenu()">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <section id="home">
+      <div class="section__pic-container">
+        <img src="My-Photo.png" alt="" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Somdutta Chakraborty</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('B.Tech_2nd_Yr_CSE_v3.pdf')">Download CV</button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+        </div>
+        <div id="socials-container">
+          <img src="linkedin.png" alt="" class="icon" onclick="location.href='https://in.linkedin.com/in/somdutta-chakraborty-b17043268'"/>
+          <img src="github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/somdutta2604'"/>
+        </div>
+      </div>
+    </section>
+
+    <!--about-->
+    <section id="about">
+      <h1 class="about_title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="about photo.png" alt="" class="about-pic"/>
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>
+              Welcome! I'm Somdutta Chakraborty, a dedicated Graphic Designer and Frontend Developer. 
+              I specialize in crafting visually appealing and highly functional websites that offer 
+              seamless user experiences. Explore my portfolio to see the innovative designs and solutions I've created.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Skills-->
+    
+    <section id="skills">
+      <div class="container">
+	<div class="main-title">
+		<h1>My Skills</h1>
+	</div>
+<div class="row">
+<section class="col">
+			
+			<div class="sub-title">
+				<h2>Programming Skills</h2>
+			</div>
+
+			<div class="skills-container">
+				
+				<div class="skill">
+					<div class="subject">HTML</div>
+					<div class="progress-bar" value="75%">
+						<div class="progress-line" style="max-width: 75%"></div>
+					</div>
+				</div>
+
+				<div class="skill">
+					<div class="subject">CSS</div>
+					<div class="progress-bar" value="60%">
+						<div class="progress-line" style="max-width: 60%"></div>
+					</div>
+				</div>
+
+                <div class="skill">
+					<div class="subject">JavaScript</div>
+					<div class="progress-bar" value="40%">
+						<div class="progress-line" style="max-width: 40%"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="col">
+			
+			<div class="sub-title">
+				<h2>Designing Skills</h2>
+			</div>
+
+			<div class="skills-container">
+				
+				<div class="skill">
+					<div class="subject">Photoshop</div>
+					<div class="progress-bar" value="82%">
+						<div class="progress-line" style="max-width: 82%"></div>
+					</div>
+				</div>
+
+				<div class="skill">
+					<div class="subject">Illustrator</div>
+					<div class="progress-bar" value="74%">
+						<div class="progress-line" style="max-width: 74%"></div>
+					</div>
+				</div>
+
+        <div class="skill">
+					<div class="subject">Figma</div>
+					<div class="progress-bar" value="63%">
+					<div class="progress-line" style="max-width: 63%"></div>
+				</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
+    </section>
+
+    <!--Projects-->
+
+    <section id="projects">
+      <h1 class="projects_title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="image-editor.png"
+                alt="Project 1"
+                class="projects-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Image Editor</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/somdutta2604/Image-Editor'">Github</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="world-editor.png" alt="Project 2" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Virtual-World</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/somdutta2604/Virtual-World'">Github</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="graphic.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Graphic Designing</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1AzTKlW4keo68ev6edThqnMfaw6bVPt7a/view'">Link
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+
+    <section id="contact">
+      <h1 class="contact_title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+          <p><a href="somdutta2645@gmail.com">somdutta2645@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://in.linkedin.com/in/somdutta-chakraborty-b17043268">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <div class="nav-links">
+            <a href="#home">Home</a> 
+            <a href="#about">About</a> 
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
